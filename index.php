@@ -282,7 +282,7 @@
                     <h1>Clothes shop Review</h1>
                     <h3>Let us know what you think and leave a review !</h3>
                     <hr>
-                    <button class="btn btn-default btn-lg"><i class="fa fa-hand-o-right" aria-hidden="true"></i><a href="../Account/Login.php">Get Started</a></button>
+                    <button class="btn btn-default btn-lg"><i class="fa fa-hand-o-right" aria-hidden="true"></i><a href="../Review/review.php">Get Started</a></button>
                 </div><!-- /.content -->
             </div><!-- /.col-lg-12 -->
         </div><!-- /.row -->

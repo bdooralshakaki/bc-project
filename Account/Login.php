@@ -43,7 +43,7 @@
     $_SESSION['signed_in'] = true;
     $_SESSION['userName']  = $row['userName'];
     $_SESSION['user'] = $row['userId'];
-    header("Location: ../Account/Home.php");
+    header("Location: ../index.php");
    } else {
     $errMSG = "Incorrect Credentials, Try again...";
    }
