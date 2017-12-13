@@ -92,6 +92,7 @@
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                  <a href="Review/review.php" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
                 </div>
               </div>
             </div>
@@ -107,6 +108,7 @@
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                   <a href="Review/review.php" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
                 </div>
               </div>
             </div>
@@ -122,6 +124,7 @@
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                   <a href="Review/review.php" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
                 </div>
               </div>
             </div>
@@ -133,10 +136,11 @@
                   <h4 class="card-title">
                     <a href="https://www.bestmenswear.ie/">Best</a>
                   </h4>
-                  <p class="card-text">Best Menswear is Ireland’s largest independent menswear retailer, specialising in selling men’s fashion and business suiting. With eleven stores nationwide and employing over 150 people Best Menswear has a strong heritage and expertise in formal menswear.</p>
+                  <p class="card-text">Best Menswear is Ireland’s largest independent menswear retailer, specialising in selling men’s fashion and business suiting.</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                   <a href="Review/review.php" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
                 </div>
               </div>
             </div>
@@ -152,6 +156,7 @@
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                   <a href="Review/review.php" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
                 </div>
               </div>
             </div>
@@ -167,6 +172,7 @@
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                   <a href="Review/review.php" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
                 </div>
               </div> 
             </div>
