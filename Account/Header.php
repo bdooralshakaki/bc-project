@@ -24,12 +24,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="../index.php">Clothes Shop Review</a>
+      <a class="navbar-brand" href="../Clothes-shop-Review">Clothes Shop Review</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-         <li><a href="../Review/review.php">Review</a></li>
-         <li><a href="../shops.php">Shops</a></li>
+         <li><a href="../Leave-a-Review">Review</a></li>
+         <li><a href="../View-shops">Shops</a></li>
          <li><a href="../ModuleReview/index.php">About</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -37,12 +37,12 @@
            if($_SESSION['signed_in'])
            {
              echo '<li class="welcomeMessage" style="color: black; padding-top: 15px;">Welcome ' . $_SESSION['userName'] . '</li>';
-             echo '<li><a href="../Account/Logout.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li></ul>';
+             echo '<li><a href="../Logout-from-the-site"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li></ul>';
            }
            else 
            {
-             echo '<li><a href="../Account/Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>';
-             echo '<li><a href="../Account/Register.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>';
+             echo '<li><a href="../Login-to-the-site"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>';
+             echo '<li><a href="../Register-to-the-site"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>';
            }       
         ?>
       </ul>

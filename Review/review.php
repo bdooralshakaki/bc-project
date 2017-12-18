@@ -12,7 +12,8 @@
     
     date_default_timezone_set('Europe/Ireland');
     
-   
+    
+    
 ?>
 
 <!DOCTYPE html>
@@ -20,14 +21,6 @@
 <head>
     <title>Clothes Review </title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/shop-homepage.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-    
     
     <h1><center> Clothes Review</center></h1>
 </head>

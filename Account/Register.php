@@ -3,12 +3,11 @@
     ob_start();
     session_start();
 
-
-    include 'Header.php';
+    include '../Account/Header.php';
 
     
  if( isset($_SESSION['signed_in'])!="" ){
-  header("Location: ../index.php");
+  header("Location: ../Clothes-shop-Review");
  }
     include '../Database/Dbconnect.php';
 
@@ -29,6 +28,10 @@
   $pass = trim($_POST['pass']);
   $pass = strip_tags($pass);
   $pass = htmlspecialchars($pass);
+  
+  $captcha = trim($_POST['captcha']);
+		$captcha = strip_tags($captcha);
+		$captcha = htmlspecialchars($captcha);
   
   // basic name validation
   if (empty($name)) {
@@ -56,6 +59,9 @@
     $emailError = "Provided Email is already in use.";
    }
   }
+  
+  
+  
   // password validation
   if (empty($pass)){
    $error = true;
@@ -67,6 +73,21 @@
   
   // password encrypt using SHA256();
   $password = hash('sha256', $pass);
+  
+  
+  // captcha for validation of user/robot
+		if(empty($captcha)){
+			$error = true;
+			$captchaErr = "Please write 3 black letteres from captcha.";
+		}
+		else if($_SESSION['captcha']!==$_POST['captcha'])
+			{
+				$error = true;
+				$captchaErr = "Incorrect Captcha, Please try again.";
+			}
+			
+			
+			
   
   // if there's no error, continue to signup
   if( !$error ) {
@@ -80,6 +101,7 @@
     unset($name);
     unset($email);
     unset($pass);
+    unset($captcha);
    } else {
     $errTyp = "danger";
     $errMSG = "Something went wrong, try again later..."; 
@@ -95,26 +117,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Coding Cage - Login & Registration System</title>
-<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css"  />
-<link rel="stylesheet" href="style.css" type="text/css" />
-   <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
-    <!-- Custom styles for this template -->
-    <link href="css/new-age.min.css" rel="stylesheet">
-    <link href="css/new-age.css" rel="stylesheet">
-    
 </head>
 <body>
 
@@ -169,6 +174,17 @@
                 </div>
                 <span class="text-danger"><?php echo $passError; ?></span>
             </div>
+            
+             <div class="form-group">
+            	<center><text>Enter only the 3 </text><b>Black</b><text> characters from Captcha: </text></center>
+           				<div class="input-group" align="center">
+              					<span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+              					<img src="../Account/captcha.php" alt="captcha image" id="captcha" width="380px" height="80px"><br />
+              					<input type="text" id="captcha" class="form-control" name="captcha" size="6" maxlength="3" placeholder="Please enter captcha code here.">
+           				</div>
+           				   <span class="text-danger"><?php echo $captchaErr?></span>
+           			</div>
+			
             
             <div class="form-group">
              <hr />

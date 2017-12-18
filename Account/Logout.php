@@ -4,7 +4,7 @@
  session_destroy();
  include '../Database/Dbconnect.php';
 
- header("Location: ../index.php");
+ header("Location: ../Clothes-shop-Review");
  exit();
 
  

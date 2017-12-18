@@ -92,7 +92,7 @@
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                  <a href="Review/review.php" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
+                  <a href="../Leave-a-Review" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
                 </div>
               </div>
             </div>
@@ -108,7 +108,7 @@
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                   <a href="Review/review.php" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
+                   <a href="../Leave-a-Review" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                   <a href="Review/review.php" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
+                   <a href="../Leave-a-Review" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                   <a href="Review/review.php" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
+                   <a href="../Leave-a-Review" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
                 </div>
               </div>
             </div>
@@ -156,7 +156,7 @@
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                   <a href="Review/review.php" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
+                   <a href="../Leave-a-Review" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
                 </div>
               </div>
             </div>
@@ -172,7 +172,7 @@
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                   <a href="Review/review.php" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
+                   <a href="../Leave-a-Review" class="btn btn-outline btn-xl js-scroll-trigger">Leave a Review</a>
                 </div>
               </div> 
             </div>
